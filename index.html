@@ -396,7 +396,7 @@
                     $('#ball3').mouseenter(() => {
                         isSafe = false
                     })
-                }, 900)
+                }, 600)
             }
 
             // create new path powerup
@@ -412,7 +412,7 @@
                         isSafe = false
                         // element.target.className = "unsafe"
                     })
-                }, 800)
+                }, 600)
             }
 
             function hidePath() {
@@ -453,16 +453,16 @@
         <h3>The rules of the game are simple, navigate the white path and don't get hit.</h3>
         <h5><strong>! block</strong> triggers traps:</h5>
         <ul>
-            <li>cursor is hidden for 1 second</li>
+            <li>cursor is hidden for 1500ms </li>
             <li>entire path disappears for the rest of the run</li>
             <li></li>
         </ul>
         <h5><strong>? block</strong> triggers mystery block:</h5>
         <ul>
             <li><img src="https://qph.cf2.quoracdn.net/main-qimg-450fd35fc7bf747a96f7709b1770de5a"
-                    style="height:20px ;"> Invincible for 1 second</li>
+                    style="height:20px ;"> Invincible for 600ms</li>
             <li><img src="https://cdn4.iconfinder.com/data/icons/css-cursors-1/48/Sed-08-512.png" style="height: 40px;">
-                can create your own path for 1 second</li>
+                can create your own path for 600ms</li>
             <br>
             <li> or trap</li>
         </ul>
